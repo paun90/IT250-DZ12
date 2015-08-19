@@ -1,0 +1,18 @@
+<html t:type="layout" title="Sedam com.example"
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_4.xsd"
+      xmlns:p="tapestry:parameter">
+
+<div class="row">
+    <div class="span4 offset3">
+
+        <t:beaneditform t:id="form" object="userLogin" submitlabel="Login" exclude="userId, rola">
+            <t:errors/>
+            <p:sifra>
+            <t:label for="sifra"/>
+            <t:passwordfield t:id="sifra" value="userLogin.sifra"/>
+            </p:sifra>
+        </t:beaneditform>
+    </div>
+</div>
+
+</html>

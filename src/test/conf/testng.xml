@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sedam Application Test Suite" annotations="1.5">
+    <test name="Unit Tests">
+        <packages>
+            <package name="com.milospaunovic.sedam"/>
+        </packages>
+    </test>
+</suite>
